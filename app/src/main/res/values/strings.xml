@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">Android Notes App</string>
+    <string name="notes">Notes</string>
+    <string name="tasks">Tasks</string>
+    <string name="search_notes">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_note_here">Type Note Here</string>
+    <string name="date">Date</string>
+    <string name="https">https</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="note_link">Link</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_link">Add Web Link</string>
+    <string name="bottom_bar">bottom bar</string>
+
+    <string name="noteId">noteId</string>
+    <string name="url_require">Url is Required</string>
+    <string name="url_validation">URl is not Valid</string>
+    <string name="title_require">Title is Required</string>
+    <string name="empty_note_description_warning">Notes Description Must Not Be Empty</string>
+
+    <string name="action">action</string>
+    <string name="bottom_sheet_action">bottom_sheet_action</string>
+    <string name="selected_color">selectedColor</string>
+
+    <string name="blue">Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="brown">Brown</string>
+    <string name="indigo">Indigo</string>
+    <string name="image">Image</string>
+    <string name="webUrl">WebUrl</string>
+    <string name="deleteNote">DeleteNote</string>
 </resources>

@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources >
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidNotesApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
@@ -6,4 +6,16 @@
     </style>
 
     <style name="Theme.AndroidNotesApp" parent="Base.Theme.AndroidNotesApp" />
+
+    <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:editTextColor">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="searchIcon">@color/colorWhite</item>
+    </style>
+
+    <style name="SearchTheme" parent="Theme.AppCompat.Light">
+        <item name="queryHint">@string/search_notes</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
+    </style>
 </resources>
